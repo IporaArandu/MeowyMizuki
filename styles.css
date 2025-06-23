@@ -9,18 +9,20 @@ body {
 }
 
 header{
-    align-items: center;
-    justify-content: center;
+    padding: 2rem;
+    justify-content:space-between;
     display: flex;
-    flex-direction: column;
-}
-
-.cabecalho {
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
+    background: linear-gradient(145deg, #50939d, #101cc6);
     width: 100%;
     height: 8rem;
-    background-color: grey;
+}
+
+header div a{
+    align-items: right;
+    text-decoration: none;
+    color: white;
+}
+
+.imagecabecalho {
+    
 }
